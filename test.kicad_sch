@@ -1,0 +1,111 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "259eb800-3550-4fac-8967-d05cd72ab133")
+	(paper "A4")
+	(lib_symbols)
+	(text "Tohle je hlavní \"Root sheet\". \nDo tohoto sheetu při větších projektech \nnedoporučuji dávat žádné schéma\nale jen zde definovat další sheety\na nebo sem dát symboly pro budoucí díry\nna PCB k jeho upevnění."
+		(exclude_from_sim no)
+		(at 165.354 48.006 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "93549f9b-de46-490f-ac23-e416e1fd6226")
+	)
+	(sheet
+		(at 81.28 38.1)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "548b3411-ec32-434a-91e7-c7d811030df5")
+		(property "Sheetname" "Test sheet 2 - SD"
+			(at 81.28 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDCard.kicad_sch"
+			(at 81.28 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "test"
+				(path "/259eb800-3550-4fac-8967-d05cd72ab133"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 38.1)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b676faf-b072-4c68-be95-52a3cc8b2411")
+		(property "Sheetname" "Test sheet 1 - ESP"
+			(at 43.18 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP.kicad_sch"
+			(at 43.18 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "test"
+				(path "/259eb800-3550-4fac-8967-d05cd72ab133"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
